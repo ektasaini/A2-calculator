@@ -1,6 +1,6 @@
 # Subtraction
 
-## Scenario Subtraction of two positive number 
+## Scenario Subtraction of two positive number
 
 When first is larger than second
   
@@ -13,7 +13,7 @@ When first is larger than second
   
   Then I see the "subtracted number" as the result
 
-## Scenario Subtraction of two positive numbers 
+## Scenario Subtraction of two positive numbers
 
 When first is smaller than second
   
