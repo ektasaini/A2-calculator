@@ -29,7 +29,7 @@
   
   Then : The result displayed.
   
-##  Scenario: Addition of decimals
+  ## Scenario: Addition of decimals
   
   Given  : Calculator charged and turned on
   
@@ -38,7 +38,7 @@
   
   Then : The result displayed.
   
-##  Scenario: Typing operator more than once
+## Scenario: Typing operator more than once
   
   Given  : Calculator charged and turned on
   
@@ -47,7 +47,7 @@
   
   Then : Display an error.
   
-##  Scenario:  Addition of more than 2 numbers
+## Scenario:  Addition of more than 2 numbers
   
   Given  : Calculator charged and turned on
   
@@ -56,7 +56,7 @@
   
   Then : The result displayed.
   
-##  Scenario: Adding numbers where the result goes out of range
+## Scenario: Adding numbers where the result goes out of range
   
   Given  : Calculator charged and turned on
   
@@ -65,7 +65,7 @@
   Then : Number of extra digits calculated and displayed as
   a power of ten.
   
-##   Scenario: 6+* provided as input
+## Scenario: 6+* provided as input
   
   Given  : Calculator charged and turned on
   
