@@ -16,7 +16,7 @@ When : Put in '0', put in '/' sign, put in second number, press '='.
 
 Then : '0' resulted.
 
-## Scenario:Sign rules for operands
+## Scenario: Sign rules for operands
 
 Given : Calculator charged and turned on
 
