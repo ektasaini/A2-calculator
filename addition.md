@@ -1,6 +1,5 @@
 # Addition
 
-
 ## Scenario: Addition of two negative numbers
   
   Given : Calculator charged and turned on
@@ -20,7 +19,7 @@
   
   Then : The result displayed in decimal.
   
-  ## Scenario: Addition of positive and negative number
+## Scenario: Addition of positive and negative number
   
   Given  : Calculator charged and turned on
   
@@ -29,7 +28,7 @@
   
   Then : The result displayed.
   
-  ## Scenario: Addition of decimals
+## Scenario: Addition of decimals
   
   Given  : Calculator charged and turned on
   
