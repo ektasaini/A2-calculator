@@ -1,7 +1,6 @@
 # Subtraction
 
-## Scenario: Subtraction of two positive number When
-first number is larger than second number
+## Scenario Subtraction of two positive number When first number is larger than second number
   
   Given The calculator is on
   
@@ -12,8 +11,7 @@ first number is larger than second number
   
   Then I see the "subtracted number" as the result
 
-## Scenario: Subtraction of two positive numbers When first
-number is smaller than second number
+## Scenario Subtraction of two positive numbers When first number is smaller than second number
   
   Given The calculator is on
   
