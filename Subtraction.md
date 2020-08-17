@@ -13,9 +13,7 @@ When first number is larger than second number
   
   Then I see the "subtracted number" as the result
 
-## Scenario: Subtraction of two positive number 
-
-When first number is smaller than second number
+## Scenario: Subtraction of two positive number When first number is smaller than second number
   
   Given The calculator is on
   
@@ -51,7 +49,7 @@ When first number is smaller than second number
   Then I see "subtracted fraction"
   with no common factor in numerator and denominator form as the result
 
-## Scenario: Subtraction of decimal numbers 
+## Scenario: Subtraction of decimal numbers
   
   Given The calculator is on
   
