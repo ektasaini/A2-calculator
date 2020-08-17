@@ -1,7 +1,7 @@
 # Subtraction
 
-## Scenario: Subtraction of two positive number
-When first number is larger than second number
+## Scenario: Subtraction of two positive number When
+first number is larger than second number
   
   Given The calculator is on
   
@@ -12,8 +12,8 @@ When first number is larger than second number
   
   Then I see the "subtracted number" as the result
 
-## Scenario: Subtraction of two positive number 
-When first number is smaller than second number
+## Scenario: Subtraction of two positive numbers When first
+number is smaller than second number
   
   Given The calculator is on
   
@@ -105,7 +105,6 @@ When first number is smaller than second number
   
   Then I see difference of all numbers with operations carried out from left to right
 
-  
 ## Scenario: Converse operation
   
   Given The calculator is on
