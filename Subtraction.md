@@ -1,7 +1,6 @@
 # Subtraction
 
 ## Scenario: Subtraction of two positive number
-
 When first number is larger than second number
   
   Given The calculator is on
@@ -13,7 +12,8 @@ When first number is larger than second number
   
   Then I see the "subtracted number" as the result
 
-## Scenario: Subtraction of two positive number When first number is smaller than second number
+## Scenario: Subtraction of two positive number 
+When first number is smaller than second number
   
   Given The calculator is on
   
@@ -36,6 +36,18 @@ When first number is larger than second number
   
   Then I see "minus" as prefix
   And the "subtracted number" as the result
+  
+## Scenario: Subtraction of numbers where the result goes out of range
+  
+  Given The calculator is on
+  And user has a suffix table
+  
+  When I type "first operand"
+  And I press "minus"
+  And I type "second operand"
+  And I press "equals"
+  
+  Then I see four digit output followed by a letter as the result
 
 ## Scenario: Subtraction of fractions
   
@@ -59,6 +71,17 @@ When first number is larger than second number
   And I press "equals"
   
   Then I see "subtracted decimal number" with two digits of precision as the result
+  
+## Scenario: Identity operation
+  
+  Given The calculator is on
+  
+  When I type "number"
+  And I press "minus"
+  I type "zero"
+  And I press "equals"
+  
+  Then I see "number" as the result
 
 ## Scenario: Typing operator more than once
   
@@ -81,29 +104,7 @@ When first number is larger than second number
   And I press "equals"
   
   Then I see difference of all numbers with operations carried out from left to right
-  
-## Scenario: Subtraction of numbers where the result goes out of range
-  
-  Given The calculator is on
-  And user has a suffix table
-  
-  When I type "first operand"
-  And I press "minus"
-  And I type "second operand"
-  And I press "equals"
-  
-  Then I see four digit output followed by a letter as the result
-  
-## Scenario: Identity operation
-  
-  Given The calculator is on
-  
-  When I type "number"
-  And I press "minus"
-  I type "zero"
-  And I press "equals"
-  
-  Then I see "number" as the result
+
   
 ## Scenario: Converse operation
   
