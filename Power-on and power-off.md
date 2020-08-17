@@ -10,5 +10,5 @@
 
 Given The calculator is on
 And screen displays either "zero" or previous calculations
-When  press "on/off"
+When press "on/off"
 Then screen sets to no display
