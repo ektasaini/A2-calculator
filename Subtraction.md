@@ -1,6 +1,6 @@
 # Subtraction
 
-## Scenario: Subtraction of "positive number" from "positive number"
+## Scenario: Subtraction of two positive number
 
 When first number is larger than second number
   
@@ -13,7 +13,7 @@ When first number is larger than second number
   
   Then I see the "subtracted number" as the result
 
-## Scenario: Subtraction of "positive number" from "positive number"
+## Scenario: Subtraction of two positive number 
 
 When first number is smaller than second number
   
@@ -27,7 +27,7 @@ When first number is smaller than second number
   Then I see "minus" prefix
   And the "subtracted number" as the result
   
-## Scenario: Subtraction of "positive number" from "negative number"
+## Scenario: Subtraction of positive number from negative number
   
   Given The calculator is on
   
@@ -39,7 +39,7 @@ When first number is smaller than second number
   Then I see "minus" as prefix
   And the "subtracted number" as the result
 
-## Scenario: Subtraction of "fraction" from "fraction"
+## Scenario: Subtraction of fractions
   
   Given The calculator is on
   
@@ -51,7 +51,7 @@ When first number is smaller than second number
   Then I see "subtracted fraction"
   with no common factor in numerator and denominator form as the result
 
-## Scenario: Subtraction of "decimal number" from "decimal number"
+## Scenario: Subtraction of decimal numbers 
   
   Given The calculator is on
   
