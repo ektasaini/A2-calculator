@@ -1,7 +1,6 @@
 
 # Power on and Power off
 
-
 ## Scenario: Power on the calculator
 
 Given The calculator is off
