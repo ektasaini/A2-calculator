@@ -53,6 +53,14 @@ repeat, press '='.
 Then : Division done left to right, results buffered at each stage.
 Final result displayed.
 
+## Scenario: Operand 2 not present
+
+Given : Calculator charged and turned on
+
+When : Put in first number, put in '/' sign, press '='.
+
+Then : Error displayed.
+
 ## Scenario: More than once "/" used
 
 Given : Calculator charged and turned on
@@ -70,11 +78,3 @@ When : Put in first number, put in '/' sign, put in other operators,
 put in second number, press '='.
 
 Then : Operators buffered, last one used. The result displayed.
-
-## Scenario: Operand 2 not present
-
-Given : Calculator charged and turned on
-
-When : Put in first number, put in '/' sign, press '='.
-
-Then : Error displayed.
