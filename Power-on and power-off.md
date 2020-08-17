@@ -1,14 +1,19 @@
+# Power on and power off
+  
+Scenario: Power on the calculator
 
-# Power on and Power off
+  Given The calculator is off
+  
+  When press "on/off"
+  
+  Then see screen sets to "zero"
 
-## Scenario: Power on the calculator
+Scenario: Power off the calculator
 
-Given The calculator is off
-When I press "on/off"
-Then I see screen sets to "zero"
-
-## Scenario: Power off the calculator
-
-Given The calculator is on And screen displays either "zero" or previous calculations
-When I press "on/off"
-Then I see screen sets to no display
+  Given The calculator is on
+  And screen displays either "zero" or previous calculations
+  
+  When  press "on/off"
+  
+  Then screen sets to no display
+  
